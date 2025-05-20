@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Zain-Regular';
+    src: url('../fonts/Zain-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zain-Italic';
+    src: url('../fonts/Zain-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Zain-Bold';
+    src: url('../fonts/Zain-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zain-Italic';
+    src: url('../fonts/Zain-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Zain-Bold', sans-serif;
+    color: #333;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 30px
+}
