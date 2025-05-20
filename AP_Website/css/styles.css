@@ -32,5 +32,18 @@ h1 {
 
 .card {
     overflow: hidden;
-    border-radius: 30px
+    border-radius: 30px;
+    aspect-ratio: 4 / 3;
+    width: 100%;
+}
+.card-title {
+    font-family: 'Zain-Bold', sans-serif;
+    color: #fff;
+    line-height: 0.8;
+    margin: 0;
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
