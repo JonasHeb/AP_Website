@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#317EFB"/>
+  <link rel="manifest" href="manifest.json" />
+  <title>Quick PWA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello from PWA!</h1>
+  <p>This is a quick progressive web app.</p>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').then(
+          registration => {
+            console.log('ServiceWorker registered with scope:', registration.scope);
+          },
+          err => {
+            console.log('ServiceWorker registration failed:', err);
+          }
+        );
+      });
+    }
+  </script>
+</body>
+</html>
