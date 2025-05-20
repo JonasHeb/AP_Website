@@ -6,10 +6,10 @@ body {
 html,
 .fullscreen {
   display: flex;
-  height: 1366px;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  width: 1024px;
+  width: 100vw;
 }
 
 /* Center the content in the browser window */
