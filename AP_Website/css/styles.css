@@ -25,6 +25,13 @@
     font-style: normal;
 }
 
+body {
+    font-family: 'Zain-Regular', sans-serif;
+    background-color: #FAF6E9;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: 'Zain-Bold', sans-serif;
     color: #333;
@@ -38,7 +45,7 @@ h1 {
 }
 .card-title {
     font-family: 'Zain-Bold', sans-serif;
-    color: #fff;
+    color: #FAF6E9;
     line-height: 0.8;
     margin: 0;
 }
@@ -50,6 +57,10 @@ h1 {
 }
 .card-img-top {
     height: 100%;
-    width: auto;
+    object-fit: cover;
 }
-
+.svg-icon-container svg{
+    fill: #FAF6E9;
+    height: 130px;
+    width: 130px;
+}
