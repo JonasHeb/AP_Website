@@ -28,6 +28,7 @@
 body {
     font-family: 'Zain-Regular', sans-serif;
     background-color: #FAF6E9;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
