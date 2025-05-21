@@ -61,6 +61,6 @@ h1 {
 }
 .svg-icon-container svg{
     fill: #FAF6E9;
-    height: 130px;
-    width: 130px;
+    width: 40%;
+    height: auto;
 }
